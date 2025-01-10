@@ -39,7 +39,7 @@ An interpretable machine learning model was developed to predict the bioactivity
 ### Candidate Evaluation
 
 Generated compounds were evaluated based on:
-- Bioactivity: Predicted using the trained model.
+- Bioactivity: Predicted using the trained MIC prediction model.
 - Off-Target Effects: Assessed to minimize undesirable interactions.
 - Drug-Likeness: Evaluated using QED and Lipinski’s rules.
 - Binding Affinity: Compared to approved antibiotics to ensure enhanced protein targeting.
@@ -71,8 +71,8 @@ Our project demonstrates the potential of AI in accelerating the discovery of no
 
 ### Repository Structure
 
-- `Data/`: Contains the dataset used in this project.
-- `Scripts/`: Scripts for compound generation using RL.
-- `Visualizations/`: Plots and figures for data analysis and model interpretation.
+- `data/`: Contains the dataset used in this project.
+- `scripts/`: Scripts for compound generation using RL.
+- `visualizations/`: Plots and figures for data analysis and model interpretation.
 
 ---
