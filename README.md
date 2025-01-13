@@ -16,7 +16,7 @@ Benzimidazole hybrids represent a promising class of therapeutic agents due to t
 We collected data on benzimidazole hybrids from open scientific sources. The dataset includes features such as:
 - Molecular structures
 - Minimum inhibitory concentrations (MICs)
-- Lipinski's Rule of Five and Three compliance
+- Lipinski's Rule of Five
 - QED Score
 - ADMET properties
 
