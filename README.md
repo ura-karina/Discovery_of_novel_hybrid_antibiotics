@@ -10,7 +10,7 @@ Benzimidazole hybrids represent a promising class of therapeutic agents due to t
 - **Candidate Selection**: Promising candidates were selected based on bioactivity, off-target effects, and other key drug criteria.
 
 ## Project Implementation
-
+![Graphical abstract](data/graphical_abstract.png)
 ### Data Collection
 
 We collected a dataset of 419 benzimidazole hybrids, containing molecular structures represented in SMILES format and experimental MIC against *E. coli* for each molecule. After preprocessing, the resulting dataset included 326 samples. The dataset includes features such as: 
