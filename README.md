@@ -28,9 +28,6 @@ We collected a dataset of 419 benzimidazole hybrids, containing molecular struct
 - **Cleaning and Imputation**: Missing values were filled using the KNN method.
 - **Normalization**: Scaled numerical features for better model performance.
 
-### Data
-All datasets used in this project are stored in the "data" folder. This folder contains the raw and processed data necessary for running the notebooks and training/testing the models.
-
 ### Model Training
 
 An interpretable machine learning model was developed to predict the bioactivity of benzimidazole hybrids. The model was validated using standard metrics and achieved high accuracy, with an R² of 0.81 on the test set. Feature importance analysis provided insights into key determinants of antibacterial activity.
@@ -91,7 +88,7 @@ Our project demonstrates the potential of AI in accelerating the discovery of no
 
 ### Repository Structure
 
-- `data/`: Contains the dataset used in this project.
+- `data/`: All datasets used in this project are stored in the "data" folder. This folder contains the raw and processed data necessary for running the notebooks and training/testing the models.
 - `scripts/`: Scripts for compound generation using RL.
 - `visualizations/`: Plots and figures for data analysis and model interpretation.
 
