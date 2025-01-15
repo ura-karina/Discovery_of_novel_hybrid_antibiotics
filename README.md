@@ -88,8 +88,28 @@ Our project demonstrates the potential of AI in accelerating the discovery of no
 
 ### Repository Structure
 
-- `data/`: All datasets used in this project are stored in the "data" folder. This folder contains the raw and processed data necessary for running the notebooks and training/testing the models.
-- `scripts/`: Scripts for compound generation using RL.
-- `visualizations/`: Plots and figures for data analysis and model interpretation.
+- **`data/`**  
+  Contains all datasets used in this project, including raw and processed data necessary for running the notebooks and training/testing the models.  
 
+- **`scripts/`**  
+  This folder contains the main project scripts:  
+  - **`Molecule_score.ipynb`**  
+    Code for adding chemical descriptors and analyzing the data. This notebook also compares the results with the initial dataset.  
+
+  - **`Molecule_scoring.ipynb`**  
+    Includes code for adding and analyzing the following properties:  
+    - Minimum Inhibitory Concentrations (MICs).  
+    - Lipinski's Rule of Five.  
+    - QED Score.  
+    - ADMET properties.  
+    These properties are used for filtering and validating molecules against antibiotics.  
+
+  - **`feature_importance.ipynb`**  
+    Notebook for analyzing feature importance using the SHAP (SHapley Additive exPlanations) method.  
+
+  - **`mic_prediction_benzimidazole.ipynb`**  
+    Script for training a model to predict Minimum Inhibitory Concentrations (MICs) using various molecular representations.  
+
+- **`visualizations/`**  
+  Contains visualizations such as plots and figures used for data analysis and model interpretation.
 ---
