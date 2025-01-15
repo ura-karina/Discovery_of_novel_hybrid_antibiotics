@@ -89,8 +89,11 @@ Our project demonstrates the potential of AI in accelerating the discovery of no
 ### Repository Structure
 
 - **`data/`**  
-  Contains all datasets used in this project, including raw and processed data necessary for running the notebooks and training/testing the models.  
-
+  Contains all datasets used in this project, including raw and processed data necessary for running the notebooks and training/testing the models.
+  
+- **`molecular_representations/`**  
+  Includes scripts for training a model to predict Minimum Inhibitory Concentrations (MICs) using 6 different molecular representations. 
+  
 - **`scripts/`**  
   This folder contains the main project scripts:  
   - **`Molecule_score.ipynb`**  
